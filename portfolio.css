@@ -105,7 +105,8 @@ html{
     position: relative;
     bottom: 30px;
     right: 5px; 
-    border-radius: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .wrapper{
     display: inline-flex;
@@ -200,7 +201,7 @@ section:nth-child(1){
     bottom: 40px;
     left: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-top: 60px;
 }
 #aboutme>div:nth-child(2)>div:nth-child(2){
@@ -234,7 +235,7 @@ section:nth-child(1){
 }
 #downloadResume{
     width: 180px;
-    margin-left: 400px;
+    margin-left: 447px;
     padding: 14px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -244,6 +245,7 @@ section:nth-child(1){
     border: 0px;
     border-radius: 5px;
     text-decoration: none;
+
 }
 #downloadResume:hover{
     background-color: #8806ce;
