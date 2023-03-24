@@ -23,18 +23,18 @@
     <!-- Navbar -->
     <section class="hero">
         <header class="header">
-            <nav id="navbar">
-                <div id="logo">
-                    <!-- <img src="./images/logo_portfolio.png" alt=""> -->
-                </div>
-                <input type="checkbox" id="check" onclick="mycheck()">
-                <label for="check" class="checkbtn">
+            <nav id="navbar" style=" display: flex; justify-content: flex-end; text-align: right;">
+                
+                <div style=" height: 100%; width: auto; position: absolute; top: 30%; right: 10%;">
+                    <input  type="checkbox" id="check" onclick="mycheck()">
+                <label style="position: absolute;  " for="check" class="checkbtn">
                     <i class="fa-solid fa-bars"></i>
                 </label>
-                <div class="nav_icon">
+               </div>
+                <!-- <div class="nav_icon" style="border: 1px solid red; height: 100%;">
                     <div class="line"></div>
-                </div>
-                <div class="container">
+                </div> -->
+                <div class="container" >
                     <ul class="nav_menu" id="navMenu">
                         <li class="nav_list" onclick="myfunc()"><a href="#home" class="nav_link home active">HOME</a></li>
                         <li class="nav_list" onclick="myfunc()"><a href="#aboutme" class="nav_link">ABOUT ME</a></li>
@@ -57,7 +57,7 @@
             <div class="wrapper">
                 <!-- <div class="static-txt">I'm a</div> -->
                 <ul class="dynamic-txt">
-                    <li><span>Technical Support Engineer    !</span></li>
+                    <li><span>Technical Support Engineer!</span></li>
                 </ul>
             </div>
         </div>
