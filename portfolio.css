@@ -561,10 +561,10 @@ section:nth-child(1){
         gap:3%;
     }
     #navbar .container li, #navbar .container li>a{
-        font-size: 10px;
+        font-size: 15px;
     }
     #navbar .container li>a.active{
-        font-size: 10.5px;
+        font-size: 15.5px;
     }
 
     #home{
@@ -919,7 +919,7 @@ section:nth-child(1){
     }
     #downloadResume{
         width: 20px;
-        margin-left: 80px;
+        margin:7% 7%;
         padding: 10px 10px;
         font-size: 8px;
     }
@@ -1028,7 +1028,7 @@ section:nth-child(1){
     }
     #projects>div>div>img{
         width: 100%;
-        height: 38%;
+        height: 25%;
     }
     #projects>div>div>h2{
         font-size: 10px;
@@ -1044,7 +1044,8 @@ section:nth-child(1){
         font-size: 25px;
     }
     #projects>div>div>button{
-        padding: 7px 18px;
+       
+        padding: 0px 0px;
         font-size: 5px;
     }
     #projects>div>div>button:nth-child(6){
