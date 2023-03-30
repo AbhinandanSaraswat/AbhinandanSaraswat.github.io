@@ -1124,3 +1124,8 @@ section:nth-child(1){
 #contact{
     padding-bottom: 100px;
 }
+#skills>div>div>img{
+    
+    width: 60%;
+   
+}
