@@ -22,7 +22,7 @@ document.getElementById("deploy2Button").addEventListener("click",function(){
 })
 
 document.getElementById("git3Button").addEventListener("click",function(){
-    window.open("https://github.com/saraswatabhinandan29/", "_blank");
+    window.open("https://github.com/AbhinandanSaraswat/Firebasepresentation", "_blank");
 })
 document.getElementById("deploy3Button").addEventListener("click",function(){
     window.open("https://comfy-pie-9f7719.netlify.app/", "_blank");
@@ -37,7 +37,7 @@ document.getElementById("linkedin").addEventListener("click",function(){
 })
 
 document.getElementById("github").addEventListener("click",function(){
-    window.open("https://github.com/saraswatabhinandan29/");
+    window.open("https://github.com/AbhinandanSaraswat");
 })
 
 
